@@ -7,11 +7,16 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "npx jest"
+    "test": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/tests/**/*.test.js"],
+    "collectCoverage": false
+  },
   "devDependencies": {
     "jest": "^30.1.3"
   }
