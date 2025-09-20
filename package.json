@@ -1,0 +1,18 @@
+{
+  "name": "interacao",
+  "version": "1.0.0",
+  "description": "Este projeto implementa funções matemáticas básicas (soma, subtração, multiplicação e divisão) em JavaScript, com testes unitários usando Jest e integração contínua via GitHub Actions.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
